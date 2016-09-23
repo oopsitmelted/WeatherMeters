@@ -100,6 +100,11 @@ def main():
         
             print "Network Error"
             time.sleep(10) # Retry in 10 seconds
+
+	except:
+	
+	    print "Unhandled Exception"
+	    time.sleep(10) # Retry in 10 seconds
             
 if __name__ == "__main__":
 	main()
